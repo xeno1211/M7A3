@@ -1,0 +1,52 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input{
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px #ccc;
+}
+
+button {
+  padding: 10px;
+  background-color: #5caf50;
+  color: white;
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1{
+  margin-bottom: 10px;
+}
+
+p{
+  margin-bottom: 5px;
+}
